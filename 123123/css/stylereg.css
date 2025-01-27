@@ -1,0 +1,152 @@
+body {
+    overflow: hidden;
+}
+div.content {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 30px;
+
+}
+.content_footer{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	gap: 1em;
+	font-size: 1em;
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-v4020-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Raleway-Extralight';
+    src: url('../fonts/Raleway/Raleway-v4020-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: 'PressStart';
+    src: url('../fonts/PressStart2P-Regular.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-form {
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    background-color: none;
+    color: black;
+    font-family: Raleway;
+    font-size: 25px;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 5%;
+}
+
+.form-logo {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0 auto;
+}
+
+.form-logo > img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+form {
+    background-color: none;
+}
+
+.input-title {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: PressStart;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.autorization-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 100px;
+}
+
+.input-form {
+    width: 80%;
+    margin: 10px auto;
+    border: none;
+    font-family: Raleway;
+    border-bottom: 1px solid black;
+    background-color: none;
+    font-weight: 100;
+    
+}
+
+.input-form::placeholder {
+    color: black;
+    font-family: Raleway-ExtraLight;
+}
+
+.submit-button {
+    display: block;
+    margin: 15px auto 0 auto;
+    text-align: center;
+    background-color: transparent; /* Changed from 'none' to 'transparent' */
+    border: 2px solid #F5821F;
+    padding: 6px 70px;
+    color: black;
+    text-decoration: none; /* Not needed for button, can be removed */
+    letter-spacing: 1px;
+    border-radius: 10px;
+    font-size: 24px;
+    transition: 0.4s ease-in;
+    font-family: Raleway;
+    cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.submit-button:hover {
+    transition: 0.4s ease-in;
+    background-color: #F5821F;
+    color: white;
+}
+
+.hrefauto {
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+}
+
+.bgd1 {
+    position: absolute;
+    right: 0;
+}
+
+.bgd2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 525px) {
+    .bgd1, .bgd2 {
+        display: none;
+    }
+
+    .main-form {
+        width: 100%;
+    }
+}

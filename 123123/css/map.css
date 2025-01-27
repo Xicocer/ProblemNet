@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.q {
+    height: 500px;
+    width: 100%;
+}
+#map {
+            width: 89%;
+            height: 570px;
+            margin: 30px auto auto 75px;
+        }
+        #info {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 10px;
+            border: 1px solid #ccc;
+            z-index: 1000;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th {
+            font-size: 24px;
+        }
+        td {
+            font-size: 20px;
+            padding-left: 20px;
+        }
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Monserrat';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-v4020-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Raleway-Extralight';
+    src: url('../fonts/Raleway/Raleway-v4020-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: 'PressStart';
+    src: url('../fonts/PressStart2P-Regular.ttf');
+}
+
+.shapka {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kab {
+    font-family: PressStart;
+    font-size: 15px;
+    color: black;
+    z-index: 1000;
+}
+
+.kab > a {
+    color: black;
+    text-decoration: none;
+}
+
+.map-title {
+    color: black;
+    margin: 70px auto auto 75px;
+    font-size: 32px;
+    font-family: Raleway;
+}
+.site-title {
+    display: flex;
+    flex-direction: column;
+    
+}
+.title {
+    padding-top: 20px;
+    font-size: 38px;
+    font-family: PressStart, sans-serif;
+}
+
+.site-title > a {
+    text-decoration: none;
+    color: black;
+}
+
+.purple-text {
+    color: #854891;
+    font-family: PressStart, sans-serif;
+}
+
+.orange-text {
+    color: #F5821F;
+}
+
+.subtitle {
+    font-size: 13px;
+    font-family: PressStart, sans-serif;
+}
+
+
+.createbutton {
+    display: none;
+    background-color: #854891;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: Raleway;
+    border-radius: 5px;
+    transition: 0.4s ease-in;
+    border: none;
+    padding: 15px 58px;
+    margin: 48px auto 0 auto;
+}
+
+.createbutton:hover {
+    background-color: #592D63;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+
+.map-main {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    transition: width 0.5s; /* Плавный переход при изменении ширины */
+}
+
+.camera {
+    display: none;
+}
+
+.info-point {
+    display: none;
+}

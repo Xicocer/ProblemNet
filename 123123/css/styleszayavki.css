@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Monserrat';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-v4020-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Raleway-Extralight';
+    src: url('../fonts/Raleway/Raleway-v4020-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: 'PressStart';
+    src: url('../fonts/PressStart2P-Regular.ttf');
+}
+
+.shapka {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kab {
+    font-family: PressStart;
+    font-size: 15px;
+    color: black;
+    z-index: 1000;
+}
+
+.kab > a {
+    color: black;
+    text-decoration: none;
+}
+
+.map-title {
+    color: black;
+    margin: 70px auto auto 75px;
+    font-size: 32px;
+    font-family: Raleway;
+}
+.site-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-title > a {
+    text-decoration: none;
+    color: black;
+}
+.title {
+    padding-top: 20px;
+    font-size: 38px;
+    font-family: PressStart, sans-serif;
+}
+.purple-text {
+    color: #854891;
+    font-family: PressStart, sans-serif;
+}
+
+.orange-text {
+    color: #F5821F;
+}
+
+.subtitle {
+    font-size: 13px;
+    font-family: PressStart, sans-serif;
+}
+
+.org-name {
+    font-size: 25px;
+    font-family: PressStart;
+}
+
+.hrefs-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.dop-border-red {
+    border: 2px solid red;
+    margin-bottom: 15px;
+}
+
+.dop-border-green {
+    border: 2px solid green;
+    margin-bottom: 15px;
+}
+
+.dop-border-grey {
+    border: 2px solid grey;
+}
+
+
